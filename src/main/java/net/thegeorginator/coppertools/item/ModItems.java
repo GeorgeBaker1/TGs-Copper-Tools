@@ -14,15 +14,15 @@ public class ModItems {
 //    public static final RegistryObject<Item> COPPER_SWORD = ITEMS.register("copper_sword",
 //            () -> new Item(new Item.Properties().stacksTo(1).defaultDurability(200)));
     public static final RegistryObject<Item> COPPER_SWORD = ITEMS.register("copper_sword",
-        () -> new SwordItem(ModToolTiers.COPPER, 3, 2, new Item.Properties()));
+        () -> new SwordItem(ModToolTiers.COPPER, 3, -2.4f, new Item.Properties()));
     public static final RegistryObject<Item> COPPER_AXE = ITEMS.register("copper_axe",
-            () -> new AxeItem(ModToolTiers.COPPER, 5, 2, new Item.Properties()));
+            () -> new AxeItem(ModToolTiers.COPPER, 6.5f, -3.2f, new Item.Properties()));
     public static final RegistryObject<Item> COPPER_PICKAXE = ITEMS.register("copper_pickaxe",
-            () -> new PickaxeItem(ModToolTiers.COPPER, 1, 2, new Item.Properties()));
+            () -> new PickaxeItem(ModToolTiers.COPPER, 1, -2.8f, new Item.Properties()));
     public static final RegistryObject<Item> COPPER_SHOVEL = ITEMS.register("copper_shovel",
-            () -> new ShovelItem(ModToolTiers.COPPER, 1, 2, new Item.Properties()));
+            () -> new ShovelItem(ModToolTiers.COPPER, 1, -3.0f, new Item.Properties()));
     public static final RegistryObject<Item> COPPER_HOE = ITEMS.register("copper_hoe",
-            () -> new HoeItem(ModToolTiers.COPPER, 1, 2, new Item.Properties()));
+            () -> new HoeItem(ModToolTiers.COPPER, 1, -1.5f, new Item.Properties()));
 
 
 

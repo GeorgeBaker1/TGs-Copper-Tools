@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tools",
+  "pattern": [
+    " A ",
+    " A ",
+    " B "
+  ],
+  "key": {
+    "A": {"item": "minecraft:copper_ingot"},
+    "B": {"item": "minecraft:stick"}
+  },
+  "result": {
+    "item": "tgcoppertools:copper_sword"
+  }
+}

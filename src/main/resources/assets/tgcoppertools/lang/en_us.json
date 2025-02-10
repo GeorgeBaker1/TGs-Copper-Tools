@@ -1,4 +1,8 @@
 {
   "creativetab.copper_tools_tab": "Copper Tools",
-  "item.tgcoppertools.copper_sword": "Copper Sword"
+  "item.tgcoppertools.copper_sword": "Copper Sword",
+  "item.tgcoppertools.copper_axe": "Copper Axe",
+  "item.tgcoppertools.copper_pickaxe": "Copper Pickaxe",
+  "item.tgcoppertools.copper_shovel": "Copper Shovel",
+  "item.tgcoppertools.copper_hoe": "Copper Hoe"
 }
