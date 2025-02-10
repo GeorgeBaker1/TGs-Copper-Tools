@@ -1,5 +1,4 @@
 package net.thegeorginator.coppertools.item;
-
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -17,6 +16,10 @@ public class ModCreativeModeTabs {
             .title(Component.translatable("creativetab.copper_tools_tab"))
             .displayItems((pParameters, pOutput) -> {
                 pOutput.accept(ModItems.COPPER_SWORD.get());
+                pOutput.accept(ModItems.COPPER_AXE.get());
+                pOutput.accept(ModItems.COPPER_PICKAXE.get());
+                pOutput.accept(ModItems.COPPER_SHOVEL.get());
+                pOutput.accept(ModItems.COPPER_HOE.get());
             })
             .build());
 
