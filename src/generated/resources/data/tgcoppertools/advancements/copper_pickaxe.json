@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tgcoppertools:copper_pickaxe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C68346",
+      "translate": "advancement.tgcoppertools.copper_pickaxe.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "tgcoppertools:copper_pickaxe"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.tgcoppertools.copper_pickaxe"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
