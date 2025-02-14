@@ -6,6 +6,7 @@ import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.common.data.ForgeItemTagsProvider;
 import net.thegeorginator.coppertools.TGCopperTools;
 import net.thegeorginator.coppertools.item.ModItems;
 
@@ -20,6 +21,13 @@ public class ModItemTagGenerator extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
+
+        this.tag(ItemTags.SWORDS).add(ModItems.COPPER_SWORD.get());
+        this.tag(ItemTags.AXES).add(ModItems.COPPER_AXE.get());
+        this.tag(ItemTags.PICKAXES).add(ModItems.COPPER_PICKAXE.get());
+        this.tag(ItemTags.SHOVELS).add(ModItems.COPPER_SHOVEL.get());
+        this.tag(ItemTags.HOES).add(ModItems.COPPER_HOE.get());
+
         this.tag(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.COPPER_HELMET.get(),
                         ModItems.COPPER_CHESTPLATE.get(),
