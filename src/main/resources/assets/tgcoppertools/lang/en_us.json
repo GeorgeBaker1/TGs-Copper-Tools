@@ -6,5 +6,9 @@
   "item.tgcoppertools.copper_shovel": "Copper Shovel",
   "item.tgcoppertools.copper_hoe": "Copper Hoe",
   "advancement.tgcoppertools.copper_pickaxe": "Isn't it- wait what?",
-  "advancement.tgcoppertools.copper_pickaxe.desc": "Obtain a copper pickaxe"
+  "advancement.tgcoppertools.copper_pickaxe.desc": "Obtain a copper pickaxe",
+  "item.tgcoppertools.copper_helmet": "Copper Helmet",
+  "item.tgcoppertools.copper_chestplate": "Copper Chestplate",
+  "item.tgcoppertools.copper_leggings": "Copper Leggings",
+  "item.tgcoppertools.copper_boots": "Copper Boots"
 }
