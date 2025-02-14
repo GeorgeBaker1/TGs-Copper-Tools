@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tools",
+  "pattern": [
+    " B ",
+    "BAB",
+    "   "
+  ],
+  "key": {
+    "A": {"item": "minecraft:leather_leggings"},
+    "B": {"item": "minecraft:copper_ingot"}
+  },
+  "result": {
+    "item": "tgcoppertools:copper_leggings"
+  }
+}

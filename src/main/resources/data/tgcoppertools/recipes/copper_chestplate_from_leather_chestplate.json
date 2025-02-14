@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tools",
+  "pattern": [
+    "BAB",
+    " B ",
+    " B "
+  ],
+  "key": {
+    "A": {"item": "minecraft:leather_chestplate"},
+    "B": {"item": "minecraft:copper_ingot"}
+  },
+  "result": {
+    "item": "tgcoppertools:copper_chestplate"
+  }
+}

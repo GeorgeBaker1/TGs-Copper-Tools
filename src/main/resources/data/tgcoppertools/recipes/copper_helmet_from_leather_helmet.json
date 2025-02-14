@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tools",
+  "pattern": [
+    " B ",
+    " A ",
+    "   "
+  ],
+  "key": {
+    "A": {"item": "minecraft:leather_helmet"},
+    "B": {"item": "minecraft:copper_ingot"}
+  },
+  "result": {
+    "item": "tgcoppertools:copper_helmet"
+  }
+}
